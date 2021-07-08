@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import { Button } from "react-bootstrap";
-import CForm from "./CForm";
+import HomePage from "./HomePage";
+import { Container } from "react-bootstrap";
 
 export default class App extends Component {
   constructor(props) {
@@ -9,7 +9,9 @@ export default class App extends Component {
   }
   render() {
     return (
-        <CForm/>
+      <Container>
+        <HomePage />
+      </Container>
     );
   }
 }

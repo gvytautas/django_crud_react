@@ -8,4 +8,4 @@ from .serializers import RegisterSerializer
 class RegisterView(ModelViewSet):
     queryset = Register.objects.all()
     serializer_class = RegisterSerializer
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
